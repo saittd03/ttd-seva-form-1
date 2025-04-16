@@ -43,7 +43,7 @@ const SecondPage = () => {
     <div>
       <TopBanner />
       <AudioPlayer />
-      <div className="bg-cover bg-center min-h-screen p-4" style={{ backgroundImage: 'url(/https://www.tirumala.org/images/TTD%20Trust%20Board%20Members/TTD-BOARD-PAGE-PIC.jpg)' }}>
+      <div className="bg-cover bg-center min-h-screen p-4" style={{ backgroundImage: 'url(https://www.tirumala.org/images/TTD%20Trust%20Board%20Members/TTD-BOARD-PAGE-PIC.jpg)' }}>
         <div className="flex flex-col md:flex-row gap-6 justify-center items-start">
           <form onSubmit={handleSubmit(onSubmit)} className="bg-white p-6 rounded-xl shadow-md w-96">
             <input {...register('name', { required: true })} placeholder="Name" className="input" />
